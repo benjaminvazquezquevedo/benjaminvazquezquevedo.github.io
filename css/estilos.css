@@ -191,7 +191,7 @@ h2, h3 {
   border-radius: 10px;
 }
 
-/* ===== PERSONAJES ===== */
+
 .titulo-personajes {
   margin: 40px 0 20px 0;
   font-size: 1.8rem;
@@ -297,7 +297,7 @@ h2, h3 {
   margin: 10px 0;
 }
 
-/* ===== VER MÁS (CSS sin JS) ===== */
+
 .toggle {
   display: none;
 }
@@ -361,27 +361,10 @@ h2, h3 {
   color: #fff;
 }
 
-/* Info extra */
+
 .footer-info p {
   margin: 5px 0;
   font-size: 14px;
-}
-
-/* Redes sociales */
-.footer-redes {
-  margin: 15px 0;
-}
-
-.footer-redes a {
-  margin: 0 10px;
-  font-size: 24px;
-  color: #76b041;
-  transition: color 0.3s, transform 0.2s;
-}
-
-.footer-redes a:hover {
-  color: #fff;
-  transform: scale(1.2);
 }
 
 .copy {
@@ -444,4 +427,19 @@ h2, h3 {
     height: 60px;
     font-size: 18px;
   }
+}
+
+.footer-redes {
+  margin: 15px 0;
+}
+
+.footer-redes a {
+  color: #76b041;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #fff;
 }

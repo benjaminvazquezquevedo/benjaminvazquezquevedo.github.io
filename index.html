@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breaking Bad</title>
   <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   
@@ -157,63 +158,83 @@
       <div class="sinopsis-texto">
         <h2>Sinopsis</h2>
         <p>
-          Breaking Bad cuenta la historia de Walter White, un profesor de química que, tras ser
-          diagnosticado con cáncer, decide entrar en el mundo del narcotráfico para asegurar el
-          futuro de su familia. A lo largo de cinco temporadas, la serie explora la transformación
-          de un hombre común en uno de los criminales más temidos del suroeste de Estados Unidos.
-        </p>
+          Breaking Bad cuenta la historia de Walter White, un profesor de química de Albuquerque que, 
+          tras ser diagnosticado con cáncer de pulmón,decide entrar en el mundo del narcotráfico para 
+          asegurar el futuro económico de su familia. Junto a su exalumno Jesse Pinkman, comienza a producir 
+          metanfetamina de alta pureza,lo que lo lleva a enfrentarse con traficantes, la policía y organizaciones 
+          criminales. A lo largo de cinco temporadas,la serie explora la transformación de un hombre común, 
+          inicialmente honesto y familiar, en uno de los criminales más temidos del suroeste de Estados Unidos,
+          mostrando los dilemas éticos, la ambición y las consecuencias de sus decisiones en su vida personal 
+          y en la de quienes lo rodean.
+
       </div>
     </div>
   </section>
+
 
 
   <section id="personajes" class="personajes seccion-personajes">
-    <h2 class="titulo-personajes">Personajes principales</h2>
-    <div class="contenedor-personajes">
+  <h2 class="titulo-personajes">Personajes principales</h2>
+  <div class="contenedor-personajes">
 
-
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="./imagenes/Walterwhite.jpg" alt="Walter White">
-            <h3>Walter White</h3>
-          </div>
-          <div class="card-back">
-            <p>Walter White es un profesor de química convertido en fabricante de metanfetamina. 
+    <!-- Walter White -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./imagenes/Walterwhite.jpg" alt="Walter White">
+          <h3>Walter White</h3>
+        </div>
+        <div class="card-back">
+          <p>Walter White es un profesor de química convertido en fabricante de metanfetamina. 
                Su alias es Heisenberg y busca asegurar el futuro de su familia tras ser diagnosticado con cáncer.</p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="./imagenes/Jesse_Pinkman.jpg" alt="Jesse Pinkman">
-            <h3>Jesse Pinkman</h3>
-          </div>
-          <div class="card-back">
-            <p>Jesse Pinkman es exestudiante de Walter y su socio en el negocio. 
-               Tiene una vida marcada por las drogas, pero también muestra lealtad y humanidad.</p>
-          </div>
-        </div>
-      </div>
-
-    
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="./imagenes/Saul_Goodman.jpg" alt="Saul Goodman">
-            <h3>Saul Goodman</h3>
-          </div>
-          <div class="card-back">
-            <p>Saul Goodman es un abogado excéntrico y creativo. 
-               Siempre tiene un plan y ayuda a Walter y Jesse a moverse en el mundo criminal.</p>
-          </div>
         </div>
       </div>
     </div>
-  </section>
+
+    <!-- Jesse Pinkman -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./imagenes/Jesse_Pinkman.jpg" alt="Jesse Pinkman">
+          <h3>Jesse Pinkman</h3>
+        </div>
+        <div class="card-back">
+          <p>Jesse Pinkman es exestudiante de Walter de Walter y su socio en el negocio. 
+               Tiene una vida marcada por las drogas, pero también muestra lealtad y humanidad.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Saul Goodman -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./imagenes/Saul_Goodman.jpg" alt="Saul Goodman">
+          <h3>Saul Goodman</h3>
+        </div>
+        <div class="card-back">
+          <p>Saul Goodman es un abogado excéntrico y creativo.
+            Siempre tiene un plan y ayuda a Walter y Jesse a moverse en el mundo criminal.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hank Schrader -->
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="./imagenes/Hank.webp" alt="Hank Schrader">
+          <h3>Hank Schrader</h3>
+        </div>
+        <div class="card-back">
+          <p>Hank Schrader es agente de la DEA y cuñado de Walter. Dedicado y obstinado, busca atrapar al misterioso Heisenberg sin saber que es su propio familiar.</p></p>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+</section>
+
 
 
 <section id="noticias" class="noticias seccion-noticias">
@@ -246,7 +267,7 @@
         Rumores de que Bryan Cranston y Aaron Paul podrían reunirse en un nuevo proyecto.
       </p>
 
-      <!-- Checkbox hack -->
+      
       <input type="checkbox" id="noticia2" class="toggle">
       <label for="noticia2" class="ver-mas">Ver más</label>
 
@@ -282,15 +303,13 @@
       <p><strong>Año:</strong> 2025</p>
     </div>
 
- 
-    <div class="footer-redes">
-      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-    </div>
-
     <p class="copy">© 2025 - Breaking Bad Fan Page</p>
-  </div>
-</footer>
+ <div class="footer-redes">
+      <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
 
 
 <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+
